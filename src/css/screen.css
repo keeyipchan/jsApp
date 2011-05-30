@@ -1,0 +1,22 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: black;
+	overflow: hidden;
+	-webkit-user-select: none;
+}
+
+#screen {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+
+	background: hsl(0,0%,80%);
+	color: hsl(160,10%,35%);
+
+	font-family: serif;
+	font-size: 12pt;
+}

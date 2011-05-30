@@ -1,0 +1,35 @@
+.UIWheel_Pivot {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:999;
+	height: 90px;
+	width: 90px;
+}
+
+.UIWheel_Handle {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:12px;
+	height:12px;
+	z-index:1000;
+	background: hsl(0,30%,50%);
+	-webkit-box-shadow: 2px 2px 4px black;
+	-webkit-border-radius: 40px;
+}
+
+.UIWheel_Label {
+	position: absolute;
+	top: 35px;
+	left: 0.25em;
+	width:90px;
+	height:0px;
+	z-index: 999;
+	text-align: center;
+	-webkit-user-select: none;
+	
+	text-shadow: -1px -1px 1px hsl(0,0%,90%);
+	color: hsl(160,30%,35%);
+	white-space: nowrap;
+}
